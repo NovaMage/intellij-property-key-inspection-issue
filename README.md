@@ -2,7 +2,7 @@
 
 Intellij org.jetbrains.annotations.PropertyKey annotation issue when using infix notation in Scala
 
-This project uses sbt version 1.9.9 and Scala 2.13.13
+This project uses sbt version 1.9.9, Scala 2.13.13 and org.jetbrains.annotations 24.1.0
 
 Should open using Intellij Idea with the Scala plugin to notice the failure in highlighting
 
