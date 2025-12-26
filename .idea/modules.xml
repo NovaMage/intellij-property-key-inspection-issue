@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue.iml" filepath="$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue.intellij-property-key-inspection-issue-build.iml" filepath="$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue.intellij-property-key-inspection-issue-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue/intellij-property-key-inspection-issue.main.iml" filepath="$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue/intellij-property-key-inspection-issue.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue/intellij-property-key-inspection-issue.test.iml" filepath="$PROJECT_DIR$/.idea/modules/intellij-property-key-inspection-issue/intellij-property-key-inspection-issue.test.iml" />
     </modules>
   </component>
 </project>

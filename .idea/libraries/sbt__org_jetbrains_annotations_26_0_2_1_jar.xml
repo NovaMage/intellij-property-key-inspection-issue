@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.jetbrains:annotations:26.0.2-1:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.jetbrains" artifactId="annotations" version="26.0.2-1" baseVersion="26.0.2-1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/26.0.2-1/annotations-26.0.2-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/26.0.2-1/annotations-26.0.2-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

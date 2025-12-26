@@ -1,16 +1,19 @@
-# Minimal reproducible example for Intellij Idea issue [SCL-22399](https://youtrack.jetbrains.com/issue/SCL-22399/Inspection-Scala-Properties-files-Invalid-property-key-does-not-work-with-infix-notation)
+# Minimal reproducible example for Intellij Idea issue [SCL-24824](https://youtrack.jetbrains.com/issue/SCL-24824/org.jetbrains.PropertyKey-smart-completion-and-find-usages-does-not-work-with-infix-notation)
 
 Intellij org.jetbrains.annotations.PropertyKey annotation issue when using infix notation in Scala
 
-This project uses sbt version 1.9.9, Scala 2.13.13 and org.jetbrains.annotations 24.1.0
+This project uses sbt version 1.9.9, Scala 3.7.4 and org.jetbrains.annotations 26.0.2-1
 
-Should open using Intellij Idea with the Scala plugin to notice the failure in highlighting
+Should open using Intellij Idea with the Scala plugin and try out find usages or smart completion of keys to see the problem.
 
-![Intellij Idea highlighting issue](https://youtrack.jetbrains.com/api/files/74-2280180?sign=MTcxMjk2NjQwMDAwMHwxMS0xNDU5MjEzfDc0LTIyODAxODB8TnpHem5CSExnbEhGNWR0NlVWVW9KUkNhU0U4VlJSOU8tTTFraEpyUV9MMA0K&updated=1712778157289)
+![Intellij Idea highlighting issue](https://youtrack.jetbrains.com/api/files/74-3137288?sign=MTc2Njk2NjQwMDAwMHwxMS0xNDU5MjEzfDc0LTMxMzcyODh8Y01PS25seEQ4NzBFRzFMX0VVaUN4ak81ZDlyZjdSOWR0dU1nV0lOSTNCTQ0K&updated=1766757357963)
 
 ### Explain how the above behavior isn't what you expected
 
-Looking at the screenshot above, you can see how calling the same function with non-infix notation triggers the inspection (marked in red, since the "invalid_key" string is not a valid property key of the "messages" bundle. However, when called with infix notation (translator translate "invalid_key"), it receives the string without warning, and smart completion does not work, nor "go to definition", nor does it mark the function call as a usage of the key in the bundle. All the goodies associated by annotating the string as an org.jetbrains.annotation.PropertyKey are essentially gone if the method is called with infix notation.
+Looking at the screenshot above, you can see how smart completion and find usages work properly on CTRL+B for non-infix notation.
+However, when using infix notation, both features fail to work as expected, as shown below.
+
+![Intellij Idea highlighting issue](https://youtrack.jetbrains.com/api/files/107-3365743?sign=MTc2Njk2NjQwMDAwMHwxMS0xNDU5MjEzfDEwNy0zMzY1NzQzfE9ZREtSRk5ZSDhYMFlLOFVaN3B0WWF3dnA5ZVlYaVVwS3lfM1dRMzI0VGcNCg)
 
 .idea folder included according to the default .gitignore file for Intellij Idea projects located
 in idea/.gitignore

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root:test [file:///home/angel/intellij-property-key-inspection-issue/]" external.linked.project.path="$MODULE_DIR$/../../.." external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" external.system.module.type="sbtSourceSet" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="intellij-property-key-inspection-issue.test" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../target/scala-3.7.4/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../src/test" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.7.4/resource_managed/test" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.7.4/src_managed/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-3.7.4" level="project" />
+    <orderEntry type="module" module-name="intellij-property-key-inspection-issue.main" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.7.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.jetbrains:annotations:26.0.2-1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.16:jar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="intellij-property-key-inspection-issue.main" />
+</module>
