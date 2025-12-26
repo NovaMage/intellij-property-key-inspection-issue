@@ -13,7 +13,7 @@ Should open using Intellij Idea with the Scala plugin and try out find usages or
 Looking at the screenshot above, you can see how smart completion and find usages work properly on CTRL+B for non-infix notation.
 However, when using infix notation, both features fail to work as expected, as shown below.
 
-![Intellij Idea highlighting issue](https://youtrack.jetbrains.com/api/files/107-3365743?sign=MTc2Njk2NjQwMDAwMHwxMS0xNDU5MjEzfDEwNy0zMzY1NzQzfE9ZREtSRk5ZSDhYMFlLOFVaN3B0WWF3dnA5ZVlYaVVwS3lfM1dRMzI0VGcNCg)
+![Intellij Idea highlighting issue](https://youtrack.jetbrains.com/api/files/74-3137287?sign=MTc2Njk2NjQwMDAwMHwxMS0xNDU5MjEzfDc0LTMxMzcyODd8U0Y5WmxjRmZNUmFOd0Q3ckRWb29CVkhoUWpfMERkNk5oSHA3dk92MzRMRQ0K&updated=1766757357945)
 
 .idea folder included according to the default .gitignore file for Intellij Idea projects located
 in idea/.gitignore
